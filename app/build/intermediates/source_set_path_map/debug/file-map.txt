@@ -1,0 +1,64 @@
+com.todo.notes.app-resValues-0 C:\Codes\Apps\To-Do List\app\build\generated\res\resValues\debug
+com.todo.notes.app-packageDebugResources-1 C:\Codes\Apps\To-Do List\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.todo.notes.app-packageDebugResources-2 C:\Codes\Apps\To-Do List\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.todo.notes.app-merged_res-3 C:\Codes\Apps\To-Do List\app\build\intermediates\merged_res\debug
+com.todo.notes.app-debug-4 C:\Codes\Apps\To-Do List\app\src\debug\res
+com.todo.notes.app-main-5 C:\Codes\Apps\To-Do List\app\src\main\res
+com.todo.notes.app-profileinstaller-1.3.0-6 C:\Users\MSI\.gradle\caches\transforms-3\09540c808f22699d0c7daa4e4891e8dc\transformed\profileinstaller-1.3.0\res
+com.todo.notes.app-lifecycle-runtime-2.7.0-7 C:\Users\MSI\.gradle\caches\transforms-3\0ac486dc0b0f0242aa4b9e157c71b661\transformed\lifecycle-runtime-2.7.0\res
+com.todo.notes.app-lifecycle-runtime-ktx-2.7.0-8 C:\Users\MSI\.gradle\caches\transforms-3\0fe40e28bcff7e0a59c3961aceda3830\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.todo.notes.app-lifecycle-livedata-2.7.0-9 C:\Users\MSI\.gradle\caches\transforms-3\23fc0fcb653fb39a5ddf365e1fd694c0\transformed\lifecycle-livedata-2.7.0\res
+com.todo.notes.app-startup-runtime-1.1.1-10 C:\Users\MSI\.gradle\caches\transforms-3\27c7feb08c06d0e1f193235b57384339\transformed\startup-runtime-1.1.1\res
+com.todo.notes.app-room-ktx-2.6.1-11 C:\Users\MSI\.gradle\caches\transforms-3\29f698ffb70b0ef9b65911444dfb5201\transformed\room-ktx-2.6.1\res
+com.todo.notes.app-sqlite-2.4.0-12 C:\Users\MSI\.gradle\caches\transforms-3\2c54d503967d6ec7e4fa580d8748d55a\transformed\sqlite-2.4.0\res
+com.todo.notes.app-ui-tooling-release-13 C:\Users\MSI\.gradle\caches\transforms-3\2c980002485d1eddf579ff3985437c79\transformed\ui-tooling-release\res
+com.todo.notes.app-animation-release-14 C:\Users\MSI\.gradle\caches\transforms-3\36d885c9f5ae66ff363b88c07d6789c7\transformed\animation-release\res
+com.todo.notes.app-ui-release-15 C:\Users\MSI\.gradle\caches\transforms-3\39b71f54e715657d67e477a1c11cdb74\transformed\ui-release\res
+com.todo.notes.app-lifecycle-runtime-compose-2.7.0-16 C:\Users\MSI\.gradle\caches\transforms-3\3bf3ded22f4fffaabb1b401892619911\transformed\lifecycle-runtime-compose-2.7.0\res
+com.todo.notes.app-ui-unit-release-17 C:\Users\MSI\.gradle\caches\transforms-3\3c7dd5a12d39381b20cc7749facfd364\transformed\ui-unit-release\res
+com.todo.notes.app-emoji2-1.3.0-18 C:\Users\MSI\.gradle\caches\transforms-3\467016ed09dc553db7dc4e3424d5efe3\transformed\emoji2-1.3.0\res
+com.todo.notes.app-datastore-1.0.0-19 C:\Users\MSI\.gradle\caches\transforms-3\4bce3be9e0707772d1a8049fb1595bb8\transformed\datastore-1.0.0\res
+com.todo.notes.app-lifecycle-viewmodel-savedstate-2.7.0-20 C:\Users\MSI\.gradle\caches\transforms-3\4be3ac36275a4e7e2abca0bdaa9612c3\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.todo.notes.app-glance-appwidget-1.0.0-21 C:\Users\MSI\.gradle\caches\transforms-3\5085965454a33887ad417c9c1de3552d\transformed\glance-appwidget-1.0.0\res
+com.todo.notes.app-ui-test-manifest-1.6.0-22 C:\Users\MSI\.gradle\caches\transforms-3\56a02779bec63006cd35758281d13f20\transformed\ui-test-manifest-1.6.0\res
+com.todo.notes.app-core-runtime-2.2.0-23 C:\Users\MSI\.gradle\caches\transforms-3\595ccc2d7ce7e7f9db5f475fee1c93c8\transformed\core-runtime-2.2.0\res
+com.todo.notes.app-lifecycle-livedata-core-2.7.0-24 C:\Users\MSI\.gradle\caches\transforms-3\5978bba4e6e205aaebc23f6a46adfe72\transformed\lifecycle-livedata-core-2.7.0\res
+com.todo.notes.app-sqlite-framework-2.4.0-25 C:\Users\MSI\.gradle\caches\transforms-3\5d8e38683874595a4a3757b0c8905703\transformed\sqlite-framework-2.4.0\res
+com.todo.notes.app-lifecycle-livedata-core-ktx-2.7.0-26 C:\Users\MSI\.gradle\caches\transforms-3\60eddf1facae892354ce78efef5d6aff\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.todo.notes.app-foundation-release-27 C:\Users\MSI\.gradle\caches\transforms-3\63349e05a8bc7f201f1de642ead67adc\transformed\foundation-release\res
+com.todo.notes.app-savedstate-ktx-1.2.1-28 C:\Users\MSI\.gradle\caches\transforms-3\71de7d7e1ced73e4c3eb0a7331261516\transformed\savedstate-ktx-1.2.1\res
+com.todo.notes.app-ui-tooling-data-release-29 C:\Users\MSI\.gradle\caches\transforms-3\739083b5bb9c33ee813a212fa50a32c8\transformed\ui-tooling-data-release\res
+com.todo.notes.app-ui-tooling-preview-release-30 C:\Users\MSI\.gradle\caches\transforms-3\75014bbd4b813b067427adbadb71e73b\transformed\ui-tooling-preview-release\res
+com.todo.notes.app-activity-ktx-1.8.2-31 C:\Users\MSI\.gradle\caches\transforms-3\76035bbc9ab5e62e7c6117e4c6a2a488\transformed\activity-ktx-1.8.2\res
+com.todo.notes.app-ui-geometry-release-32 C:\Users\MSI\.gradle\caches\transforms-3\7cbfffa30b7ef20d4e7bcbd04bc77f9e\transformed\ui-geometry-release\res
+com.todo.notes.app-ui-util-release-33 C:\Users\MSI\.gradle\caches\transforms-3\8869cf67e3a9bb4c54ddc8e03fcfa7e3\transformed\ui-util-release\res
+com.todo.notes.app-material-release-34 C:\Users\MSI\.gradle\caches\transforms-3\89fc3508c552c78a240fd342479b1b5c\transformed\material-release\res
+com.todo.notes.app-lifecycle-viewmodel-ktx-2.7.0-35 C:\Users\MSI\.gradle\caches\transforms-3\8a4a57b08f9677f7e6f8840ec4964c1b\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.todo.notes.app-core-ktx-1.12.0-36 C:\Users\MSI\.gradle\caches\transforms-3\914cfbcf9877e35ff84501a9bb2bc62b\transformed\core-ktx-1.12.0\res
+com.todo.notes.app-material3-1.1.2-37 C:\Users\MSI\.gradle\caches\transforms-3\91734725fc6d6c1f67d56028e6200f98\transformed\material3-1.1.2\res
+com.todo.notes.app-activity-1.8.2-38 C:\Users\MSI\.gradle\caches\transforms-3\984ecc8d99c1ad0e170f1e822babfebd\transformed\activity-1.8.2\res
+com.todo.notes.app-runtime-release-39 C:\Users\MSI\.gradle\caches\transforms-3\9c79bcb8b85c9800dad4f6ffa3381f74\transformed\runtime-release\res
+com.todo.notes.app-animation-core-release-40 C:\Users\MSI\.gradle\caches\transforms-3\9dcb7bd6883151d410bdb8cf9b419304\transformed\animation-core-release\res
+com.todo.notes.app-glance-1.0.0-41 C:\Users\MSI\.gradle\caches\transforms-3\a47ef6a6f1afa6cdcfe99ac84061d007\transformed\glance-1.0.0\res
+com.todo.notes.app-lifecycle-service-2.7.0-42 C:\Users\MSI\.gradle\caches\transforms-3\a59162e6e9cd97295b9e2bce11d2c037\transformed\lifecycle-service-2.7.0\res
+com.todo.notes.app-core-1.12.0-43 C:\Users\MSI\.gradle\caches\transforms-3\a80ca45a17d8d157825d4a4182d12dd8\transformed\core-1.12.0\res
+com.todo.notes.app-lifecycle-viewmodel-compose-2.7.0-44 C:\Users\MSI\.gradle\caches\transforms-3\aecf08893e7d5c2e611a70a2eddc7573\transformed\lifecycle-viewmodel-compose-2.7.0\res
+com.todo.notes.app-activity-compose-1.8.2-45 C:\Users\MSI\.gradle\caches\transforms-3\b1e72669fcd2f1aa5a723b01c506fe47\transformed\activity-compose-1.8.2\res
+com.todo.notes.app-material-ripple-release-46 C:\Users\MSI\.gradle\caches\transforms-3\b33639fd2c80aea7a15d44bf37c3fb06\transformed\material-ripple-release\res
+com.todo.notes.app-glance-material3-1.0.0-47 C:\Users\MSI\.gradle\caches\transforms-3\b3411566f0b4e2ef06001d2c34430912\transformed\glance-material3-1.0.0\res
+com.todo.notes.app-foundation-layout-release-48 C:\Users\MSI\.gradle\caches\transforms-3\b7ace09e059c81b3547556d27958304d\transformed\foundation-layout-release\res
+com.todo.notes.app-lifecycle-viewmodel-2.7.0-49 C:\Users\MSI\.gradle\caches\transforms-3\b9e2921c834e6bf9ef34a92d7efc5d0d\transformed\lifecycle-viewmodel-2.7.0\res
+com.todo.notes.app-datastore-preferences-1.0.0-50 C:\Users\MSI\.gradle\caches\transforms-3\ba1a4e85583ca819222180fd6c3d9bcf\transformed\datastore-preferences-1.0.0\res
+com.todo.notes.app-material-icons-extended-release-51 C:\Users\MSI\.gradle\caches\transforms-3\c9ea7d8ca84bbe45d7416ea9c3cf8e6f\transformed\material-icons-extended-release\res
+com.todo.notes.app-work-runtime-2.7.1-52 C:\Users\MSI\.gradle\caches\transforms-3\cb2a2ab7f4f0ab5cec1ae90d067a4faa\transformed\work-runtime-2.7.1\res
+com.todo.notes.app-ui-text-release-53 C:\Users\MSI\.gradle\caches\transforms-3\ce317a6a45fbb7ed4db1ed1cf8c95cee\transformed\ui-text-release\res
+com.todo.notes.app-work-runtime-ktx-2.7.1-54 C:\Users\MSI\.gradle\caches\transforms-3\ce920246f52cf61b62ff7f5992ad5f2d\transformed\work-runtime-ktx-2.7.1\res
+com.todo.notes.app-annotation-experimental-1.3.0-55 C:\Users\MSI\.gradle\caches\transforms-3\d09c34b82ed069f581da327d5f3eb25c\transformed\annotation-experimental-1.3.0\res
+com.todo.notes.app-lifecycle-process-2.7.0-56 C:\Users\MSI\.gradle\caches\transforms-3\d0b4012e9fe0993a9e3a97eb1db12292\transformed\lifecycle-process-2.7.0\res
+com.todo.notes.app-savedstate-1.2.1-57 C:\Users\MSI\.gradle\caches\transforms-3\d33852237471e5f0c8d8cbe76e0b1697\transformed\savedstate-1.2.1\res
+com.todo.notes.app-ui-graphics-release-58 C:\Users\MSI\.gradle\caches\transforms-3\da6ba35f688c277f324caa56866150ff\transformed\ui-graphics-release\res
+com.todo.notes.app-room-runtime-2.6.1-59 C:\Users\MSI\.gradle\caches\transforms-3\dada826961c3578e0af129baa8c6f862\transformed\room-runtime-2.6.1\res
+com.todo.notes.app-customview-poolingcontainer-1.0.0-60 C:\Users\MSI\.gradle\caches\transforms-3\dd4a3fa38bbb7ffe46edf174cd4e843e\transformed\customview-poolingcontainer-1.0.0\res
+com.todo.notes.app-core-remoteviews-1.0.0-61 C:\Users\MSI\.gradle\caches\transforms-3\fa94eb0ea79355d466e852c2abdccc5d\transformed\core-remoteviews-1.0.0\res
+com.todo.notes.app-material-icons-core-release-62 C:\Users\MSI\.gradle\caches\transforms-3\fbcecfca7a11d88991a2e3efc1dfc74f\transformed\material-icons-core-release\res
+com.todo.notes.app-runtime-saveable-release-63 C:\Users\MSI\.gradle\caches\transforms-3\fee130c83682a9d4a874573763f96690\transformed\runtime-saveable-release\res

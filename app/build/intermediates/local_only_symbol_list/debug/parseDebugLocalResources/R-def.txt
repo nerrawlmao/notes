@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color ic_banner_background
+drawable ic_banner_image
+drawable ic_check_empty
+drawable ic_check_filled
+drawable widget_bg
+drawable widget_bg_dark
+id todo_checkbox
+id todo_text
+id widget_container
+id widget_title
+id widget_todos_container
+layout widget_todo
+layout widget_todo_item
+mipmap ic_banner
+mipmap ic_banner_foreground
+mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+string widget_description
+style Theme.ToDoList
+xml backup_rules
+xml data_extraction_rules
+xml todo_widget_info

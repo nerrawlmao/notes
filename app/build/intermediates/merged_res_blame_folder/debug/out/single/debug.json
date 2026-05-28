@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.todo.notes.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/drawable_widget_bg.xml.flat",
+        "source": "com.todo.notes.app-main-6:/drawable/widget_bg.xml"
+    },
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "com.todo.notes.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/drawable_ic_check_empty.xml.flat",
+        "source": "com.todo.notes.app-main-6:/drawable/ic_check_empty.xml"
+    },
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/drawable_ic_check_filled.xml.flat",
+        "source": "com.todo.notes.app-main-6:/drawable/ic_check_filled.xml"
+    },
+    {
+        "merged": "com.todo.notes.app-merged_res-4:/xml_todo_widget_info.xml.flat",
+        "source": "com.todo.notes.app-main-6:/xml/todo_widget_info.xml"
+    }
+]

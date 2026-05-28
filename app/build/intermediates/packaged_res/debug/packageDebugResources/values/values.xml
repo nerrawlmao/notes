@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_banner_background">#FFFFFF</color>
+    <string name="app_name">Notes</string>
+    <string name="widget_description">Shows your todo list</string>
+    <style name="Theme.ToDoList" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
