@@ -1,10 +1,18 @@
 <p align="center">
-  <img src="app/src/main/res/mipmap-xhdpi/ic_banner.png" width="200" alt="To-Do Logo" />
+  <img src="app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-xhdpi-v4/ic_banner_foreground.png" width="160" alt="To-Do Logo" style="border-radius: 50%;" />
 </p>
 
-# To-Do
+<p align="center">
+  <strong>To-Do</strong>
+</p>
 
-A modern, feature-rich To-Do application for Android built with **Kotlin** and **Jetpack Compose**.
+<p align="center">
+  A modern, feature-rich To-Do application for Android built with <strong>Kotlin</strong> and <strong>Jetpack Compose</strong>.
+</p>
+
+<p align="center">
+  <a href="app/build/outputs/apk/debug/To-Do.apk">Download APK</a>
+</p>
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
