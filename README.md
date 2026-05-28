@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <span style="font-size: 2em; font-weight: bold;">To-Do</span>
+  <span style="font-size: 6em; font-weight: bold;">To-Do</span>
 </p>
 
 <p align="center">
