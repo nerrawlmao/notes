@@ -11,7 +11,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.todo.notes.ui.screens.MainScreen
-import com.todo.notes.ui.theme.ToDoListTheme
+import com.todo.notes.ui.theme.NotesTheme
 import com.todo.notes.ui.viewmodel.NoteViewModel
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             val viewModel: NoteViewModel = viewModel()
             val isDark by viewModel.isDarkMode.collectAsState()
 
-            ToDoListTheme(darkTheme = isDark) {
+            NotesTheme(darkTheme = isDark) {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     MainScreen(viewModel = viewModel)
                 }

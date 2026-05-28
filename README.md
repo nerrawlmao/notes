@@ -54,7 +54,7 @@
 ```bash
 # Clone the repo
 git clone <repo-url>
-cd ToDoList
+cd Notes
 
 # Build debug APK
 ./gradlew assembleDebug
