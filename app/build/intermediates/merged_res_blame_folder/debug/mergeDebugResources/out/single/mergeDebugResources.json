@@ -1,142 +1,146 @@
 [
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\layout_widget_todo_item.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\layout\\widget_todo_item.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-mdpi_ic_launcher_background.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-mdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\drawable_ic_banner_image.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\drawable\\ic_banner_image.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-anydpi-v26_ic_banner.xml.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-anydpi-v26/ic_banner.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-hdpi_ic_launcher_background.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-hdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_launcher_background.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-anydpi-v26_ic_banner.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-anydpi-v26\\ic_banner.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-mdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/drawable_widget_bg.xml.flat",
-        "source": "com.todo.notes.app-main-6:/drawable/widget_bg.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\drawable_ic_check_empty.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\drawable\\ic_check_empty.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/drawable_ic_check_empty.xml.flat",
-        "source": "com.todo.notes.app-main-6:/drawable/ic_check_empty.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-hdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\layout_widget_todo.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\layout\\widget_todo.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/xml_backup_rules.xml.flat",
-        "source": "com.todo.notes.app-main-6:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxhdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\drawable_ic_check_filled.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\drawable\\ic_check_filled.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/drawable_ic_check_filled.xml.flat",
-        "source": "com.todo.notes.app-main-6:/drawable/ic_check_filled.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_banner.png.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_banner.png"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/drawable_ic_banner_image.xml.flat",
-        "source": "com.todo.notes.app-main-6:/drawable/ic_banner_image.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/drawable_widget_bg_dark.xml.flat",
-        "source": "com.todo.notes.app-main-6:/drawable/widget_bg_dark.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxxhdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\drawable_widget_bg_dark.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\drawable\\widget_bg_dark.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\xml_todo_widget_info.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\xml\\todo_widget_info.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/xml_todo_widget_info.xml.flat",
-        "source": "com.todo.notes.app-main-6:/xml/todo_widget_info.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_banner.png.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_banner.png"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/layout_widget_todo_item.xml.flat",
-        "source": "com.todo.notes.app-main-6:/layout/widget_todo_item.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/xml_data_extraction_rules.xml.flat",
-        "source": "com.todo.notes.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-xhdpi_ic_banner_foreground.png.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-xhdpi/ic_banner_foreground.png"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xxhdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.todo.notes.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.todo.notes.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\mipmap-xhdpi_ic_banner_foreground.png.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\mipmap-xhdpi\\ic_banner_foreground.png"
     },
     {
         "merged": "com.todo.notes.app-debug-4:/layout_widget_todo.xml.flat",
         "source": "com.todo.notes.app-main-6:/layout/widget_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-debug-4:\\drawable_widget_bg.xml.flat",
+        "source": "C:\\Users\\MSI\\.gradle\\daemon\\9.2.1\\com.todo.notes.app-main-6:\\drawable\\widget_bg.xml"
     }
 ]

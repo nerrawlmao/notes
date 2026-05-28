@@ -21,7 +21,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string widget_description
-style Theme.ToDoList
+style Theme.ToDo
 xml backup_rules
 xml data_extraction_rules
 xml todo_widget_info

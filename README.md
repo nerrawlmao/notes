@@ -53,7 +53,7 @@
 
 ```bash
 # Clone the repo
-git clone <repo-url>
+git clone https://github.com/nerrawlmao/Notes.git
 cd Notes
 
 # Build debug APK

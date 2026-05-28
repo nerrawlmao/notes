@@ -5,4 +5,4 @@
 -keep class com.todo.notes.widget.** { *; }
 
 # Keep Application class
--keep class com.todo.notes.ToDoNotesApp { *; }
+-keep class com.todo.notes.ToDoApp { *; }

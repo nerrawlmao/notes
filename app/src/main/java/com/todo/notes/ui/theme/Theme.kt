@@ -42,7 +42,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun NotesTheme(
+fun ToDoTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

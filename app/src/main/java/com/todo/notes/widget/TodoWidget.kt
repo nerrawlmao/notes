@@ -19,8 +19,10 @@ import androidx.glance.GlanceId
 import androidx.glance.GlanceModifier
 import androidx.glance.Image
 import androidx.glance.ImageProvider
+import androidx.glance.action.Action
 import androidx.glance.action.ActionParameters
 import androidx.glance.action.actionParametersOf
+import androidx.glance.action.actionStartActivity
 import androidx.glance.action.clickable
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
@@ -45,6 +47,7 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextDecoration
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
+import com.todo.notes.MainActivity
 import com.todo.notes.R
 import com.todo.notes.data.PrefsConstants
 import com.todo.notes.data.db.AppDatabase
@@ -66,6 +69,10 @@ class TodoWidget : GlanceAppWidget() {
 
         val bgRes = if (isDark) R.drawable.widget_bg_dark else R.drawable.widget_bg
 
+        val openAppComponent = ComponentName(context, MainActivity::class.java)
+
+        val openAppAction = actionStartActivity(openAppComponent)
+
         provideContent {
             Box(
                 modifier = GlanceModifier
@@ -84,14 +91,20 @@ class TodoWidget : GlanceAppWidget() {
                             text = currentNote.title.ifBlank { "Untitled" },
                             style = TextStyle(color = ColorProvider(textPrimary), fontWeight = FontWeight.Bold, fontSize = 16.sp),
                             modifier = GlanceModifier.padding(bottom = 8.dp)
+                                .clickable(onClick = openAppAction)
                         )
                         val todos = currentNote.todos
                         if (todos.isEmpty()) {
                             Text(text = "No todos", style = TextStyle(color = ColorProvider(textSecondary), fontSize = 13.sp))
                         } else {
-                            LazyColumn(modifier = GlanceModifier.fillMaxSize()) {
+                            LazyColumn(modifier = GlanceModifier.fillMaxWidth().fillMaxSize()) {
                                 itemsIndexed(todos) { _, todo ->
-                                    TodoWidgetItem(todo = todo, noteId = currentNote.id, isDark = isDark)
+                                    TodoWidgetItem(
+                                        todo = todo,
+                                        noteId = currentNote.id,
+                                        isDark = isDark,
+                                        openAppAction = openAppAction
+                                    )
                                 }
                             }
                         }
@@ -103,14 +116,14 @@ class TodoWidget : GlanceAppWidget() {
 }
 
 @Composable
-private fun TodoWidgetItem(todo: TodoItem, noteId: Long, isDark: Boolean = false) {
+private fun TodoWidgetItem(todo: TodoItem, noteId: Long, isDark: Boolean = false, openAppAction: Action? = null) {
     val textPrimary = if (isDark) Color(0xFFE0E0E0) else Color(0xFF1A1A1A)
     Row(
         modifier = GlanceModifier.fillMaxWidth().padding(horizontal = 0.dp, vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Box(
-            modifier = GlanceModifier.size(16.dp).clickable(
+            modifier = GlanceModifier.size(28.dp).clickable(
                 onClick = actionRunCallback<TodoToggleAction>(
                     actionParametersOf(TodoToggleAction.NOTE_ID to noteId, TodoToggleAction.TODO_UID to todo.uid)
                 )
@@ -128,6 +141,9 @@ private fun TodoWidgetItem(todo: TodoItem, noteId: Long, isDark: Boolean = false
             text = todo.text.ifBlank { "Todo" },
             style = TextStyle(color = ColorProvider(textPrimary), fontSize = 13.sp, textDecoration = if (todo.completed) TextDecoration.LineThrough else TextDecoration.None),
             modifier = GlanceModifier.fillMaxWidth()
+                .let { modifier ->
+                    if (openAppAction != null) modifier.clickable(onClick = openAppAction) else modifier
+                }
         )
     }
 }
@@ -163,20 +179,29 @@ class TodoWidgetReceiver : GlanceAppWidgetReceiver() {
                 val isDark = prefs.getBoolean(PrefsConstants.KEY_DARK_MODE, false)
                 val currentNote = notes.firstOrNull()
 
-                val bgColor = if (isDark) android.graphics.Color.parseColor("#1E1E1E") else android.graphics.Color.parseColor("#FFFFFF")
                 val textColor = if (isDark) android.graphics.Color.parseColor("#E0E0E0") else android.graphics.Color.parseColor("#1A1A1A")
                 val secondaryColor = if (isDark) android.graphics.Color.parseColor("#9E9E9E") else android.graphics.Color.parseColor("#9CA3AF")
 
                 val appWidgetManager = AppWidgetManager.getInstance(context)
 
+                val openAppIntent = Intent(context, MainActivity::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                }
+                val openAppPendingIntent = PendingIntent.getActivity(
+                    context, 0, openAppIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+                )
+
                 for (appWidgetId in appWidgetIds) {
                     val views = RemoteViews(context.packageName, R.layout.widget_todo)
 
-                    views.setInt(R.id.widget_container, "setBackgroundColor", bgColor)
+                    val bgRes = if (isDark) R.drawable.widget_bg_dark else R.drawable.widget_bg
+                    views.setInt(R.id.widget_container, "setBackgroundResource", bgRes)
 
                     val titleText = currentNote?.title?.ifBlank { "Untitled" } ?: "No notes yet"
                     views.setTextViewText(R.id.widget_title, titleText)
                     views.setTextColor(R.id.widget_title, textColor)
+                    views.setOnClickPendingIntent(R.id.widget_title, openAppPendingIntent)
 
                     views.removeAllViews(R.id.widget_todos_container)
 
@@ -194,6 +219,13 @@ class TodoWidgetReceiver : GlanceAppWidgetReceiver() {
                             itemView.setTextViewText(R.id.todo_text, todo.text.ifBlank { "Todo" })
                             itemView.setTextColor(R.id.todo_text, textColor)
 
+                            val paintFlags = if (todo.completed) {
+                                17  // Paint.STRIKETHROUGH_TEXT_FLAG or Paint.ANTI_ALIAS_FLAG
+                            } else {
+                                1  // Paint.ANTI_ALIAS_FLAG
+                            }
+                            itemView.setInt(R.id.todo_text, "setPaintFlags", paintFlags)
+
                             val checkRes = if (todo.completed) R.drawable.ic_check_filled else R.drawable.ic_check_empty
                             itemView.setImageViewResource(R.id.todo_checkbox, checkRes)
                             itemView.setViewVisibility(R.id.todo_checkbox, android.view.View.VISIBLE)
@@ -208,6 +240,7 @@ class TodoWidgetReceiver : GlanceAppWidgetReceiver() {
                                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
                             )
                             itemView.setOnClickPendingIntent(R.id.todo_checkbox, pendingIntent)
+                            itemView.setOnClickPendingIntent(R.id.todo_text, openAppPendingIntent)
 
                             views.addView(R.id.widget_todos_container, itemView)
                         }

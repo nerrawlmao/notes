@@ -124,17 +124,17 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\MSI\.gradle\caches
 	android:allowBackup
 		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:14:9-46
+		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:14:9-42
 	android:dataExtractionRules
 		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:8:9-65
 	android:name
-		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:6:9-37
+		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:6:9-32
 activity#com.todo.notes.MainActivity
 ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:exported
 		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:20:13-50
+		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:20:13-46
 	android:name
 		ADDED from C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

@@ -1689,7 +1689,7 @@ int style TextAppearance_Compat_Notification_Info 0x7f0e0026
 int style TextAppearance_Compat_Notification_Line2 0x7f0e0027
 int style TextAppearance_Compat_Notification_Time 0x7f0e0028
 int style TextAppearance_Compat_Notification_Title 0x7f0e0029
-int style Theme_ToDoList 0x7f0e002a
+int style Theme_ToDo 0x7f0e002a
 int style Widget_Compat_NotificationActionContainer 0x7f0e002b
 int style Widget_Compat_NotificationActionText 0x7f0e002c
 int style Widget_Glance_AppWidget_CallbackTrampoline 0x7f0e002d

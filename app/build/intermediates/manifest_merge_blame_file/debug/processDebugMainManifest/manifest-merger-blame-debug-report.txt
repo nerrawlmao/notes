@@ -34,8 +34,8 @@
 21
 22    <application
 22-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:5:5-38:19
-23        android:name="com.todo.notes.ToDoNotesApp"
-23-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:6:9-37
+23        android:name="com.todo.notes.ToDoApp"
+23-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:6:9-32
 24        android:allowBackup="true"
 24-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:7:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,16 +54,16 @@
 32-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:11:9-54
 33        android:supportsRtl="true"
 33-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:13:9-35
-34        android:theme="@style/Theme.ToDoList" >
-34-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:14:9-46
+34        android:theme="@style/Theme.ToDo" >
+34-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:14:9-42
 35        <activity
 35-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:17:9-25:20
 36            android:name="com.todo.notes.MainActivity"
 36-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:18:13-41
 37            android:exported="true"
 37-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:19:13-36
-38            android:theme="@style/Theme.ToDoList" >
-38-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:20:13-50
+38            android:theme="@style/Theme.ToDo" >
+38-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:20:13-46
 39            <intent-filter>
 39-->C:\Codes\Apps\Notes\app\src\main\AndroidManifest.xml:21:13-24:29
 40                <action android:name="android.intent.action.MAIN" />
