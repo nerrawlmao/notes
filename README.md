@@ -2,9 +2,7 @@
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" width="160" alt="To-Do Logo" style="border-radius: 50%;" />
 </p>
 
-<p align="center">
-  <span style="font-size: 120px; font-weight: bold;">To-Do</span>
-</p>
+<h1 align="center">To-Do</h1>
 
 <p align="center">
   <em>A modern, feature-rich To-Do application for Android built with <strong>Kotlin</strong> and <strong>Jetpack Compose</strong>.</em>
