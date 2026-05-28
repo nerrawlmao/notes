@@ -19,6 +19,10 @@
 ![Glance](https://img.shields.io/badge/Glance_Widget-34A853?style=for-the-badge&logo=android&logoColor=white)
 ![Min SDK](https://img.shields.io/badge/minSdk-26-FF6D00?style=for-the-badge&logo=android&logoColor=white)
 
+<p align="center">
+  <img src="preview.png" width="300" alt="App Preview" />
+</p>
+
 ## Features
 
 - **Create Notes** — Tap the FAB to instantly create a new note with an empty todo item
